@@ -10994,7 +10994,9 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 .logo-pagina {
-    width: 100px;
-    height: 100px;
+    display: block;
+    width: 220px;
+    height: 220px;
     object-fit: contain;
+    margin: 0 auto 25px auto;
 }
