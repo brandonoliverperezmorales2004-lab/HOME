@@ -10993,39 +10993,8 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-/* Logo del encabezado */
 .logo-pagina {
-    display: block;
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     object-fit: contain;
-    margin: 0 auto 20px auto;
-}
-
-/* Centrar el contenido del encabezado */
-.masthead .container {
-    min-height: 100vh;
-}
-
-.masthead .row {
-    min-height: 100vh;
-}
-
-.masthead .col-lg-8 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Ajustes para celulares */
-@media (max-width: 768px) {
-    .logo-pagina {
-        width: 85px;
-        height: 85px;
-    }
-
-    .masthead h1 {
-        font-size: 2.5rem;
-    }
 }
